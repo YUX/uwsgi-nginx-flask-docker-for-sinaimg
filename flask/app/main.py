@@ -5,7 +5,6 @@ import re
 
 app = Flask(__name__)
 app.debug = False
-APPROVED_HOSTS = set(["google.com", "www.google.com", "ww3.sinaimg.cn", "flask.pocoo.org", "ajax.googleapis.com"])
 CHUNK_SIZE = 2048
 
 @app.route('/<path:url>')
