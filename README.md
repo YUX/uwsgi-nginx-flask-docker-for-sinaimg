@@ -1,6 +1,3 @@
-<iframe src="https://sinaimg.daoapp.io/ww1.sinaimg.cn/large/863bb56fgw1f3r5e627m9g20jg08cwej.gif" width="700" height="300"></iframe>
-****
-↑If you could see the picture above, it's working.↑
 ## About
 This is a Docker Flask Steam SSL Proxy for Sinaimg. This container can fix the HTTPS protocol for Sinaimg, which is the best image hosting sercive in China. This project is based on [tiangolo/uwsgi-nginx:latest](https://github.com/tiangolo/uwsgi-nginx-docker). Thanks!
 ## 关于
