@@ -3,30 +3,48 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
 
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
     <title>Uwsgi-nginx-flask-docker-for-sinaimg by YUX-IO</title>
   </head>
 
   <body>
+    <a id="forkme_banner" href="https://github.com/YUX-IO/uwsgi-nginx-flask-docker-for-sinaimg">View on GitHub</a>
+    <div class="shell">
 
-    <header>
-      <div class="container">
-        <h1>Uwsgi-nginx-flask-docker-for-sinaimg</h1>
-        <h2>Click here to see if it&#39;s working.</h2>
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Uwsgi-nginx-flask-docker-for-sinaimg</h1>
+            <h2>使用DaoCloud对微博图床进行HTTPS代理</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
 
-        <section id="downloads">
-          <a href="https://github.com/YUX-IO/uwsgi-nginx-flask-docker-for-sinaimg/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/YUX-IO/uwsgi-nginx-flask-docker-for-sinaimg/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/YUX-IO/uwsgi-nginx-flask-docker-for-sinaimg" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/YUX-IO/uwsgi-nginx-flask-docker-for-sinaimg/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/YUX-IO/uwsgi-nginx-flask-docker-for-sinaimg/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
 
-    <div class="container">
+
+      <span class="banner-fix"></span>
+
+
       <section id="main_content">
         <p>Short anwser:</p>
 
@@ -181,7 +199,24 @@ Dockerfile</p>
 </ul>
 </li>
 </ul>
+
+<hr>
+
+<p>handmade by <a href="https://yux.io">YUX</a></p>
       </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/YUX-IO">YUX-IO</a> can be found on <a href="https://github.com/YUX-IO/uwsgi-nginx-flask-docker-for-sinaimg">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
     </div>
 
     
