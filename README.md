@@ -1,3 +1,7 @@
+# NOW PLEASE USE https://gossl.daoapp.io/ NOT https://sinaimg.daoapp.io
+AND MOVE TO https://github.com/YUX-IO/gossl FOR DETAIL
+****
+
 ## About
 This is a Docker Flask Steam SSL Proxy for Sinaimg. This container can fix the HTTPS protocol for Sinaimg, which is the best image hosting sercive in China. This project is based on [tiangolo/uwsgi-nginx:latest](https://github.com/tiangolo/uwsgi-nginx-docker). Thanks!
 ## 关于
